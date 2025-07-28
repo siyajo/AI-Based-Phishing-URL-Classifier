@@ -3,6 +3,7 @@ Phishing URL Detection Web App
 This is a machine learning-based web application built with Streamlit that classifies URLs as Phishing or Legitimate. 
 It uses a trained Random Forest model and intelligent feature extraction to detect suspicious URLs automatically.
 
+
 How It Works
 
 1.You input any URL (e.g., https://example.com)
@@ -12,6 +13,7 @@ How It Works
 3.The trained model predicts whether it's Phishing (-1) or Legitimate (1)
 
 4.The result is displayed instantly with color-coded output
+
 
 Features used for detection:
 
@@ -58,6 +60,7 @@ pip install streamlit
 Run the app:
 
 streamlit run app.py
+
 
 Model Info
 
